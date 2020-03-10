@@ -775,7 +775,7 @@ MonoBehaviour:
   orbitCamera: {fileID: 2022434252}
   firstPersonCamera: {fileID: 1272926663}
   splineCamera: {fileID: 1050488928}
-  choice: follow
+  choice: spline
 --- !u!4 &572575260
 Transform:
   m_ObjectHideFlags: 0
@@ -1248,6 +1248,7 @@ GameObject:
   - component: {fileID: 1050488929}
   - component: {fileID: 1050488928}
   - component: {fileID: 1050488927}
+  - component: {fileID: 1050488930}
   m_Layer: 0
   m_Name: Spline Camera
   m_TagString: Untagged
@@ -1320,6 +1321,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1050488930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050488926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95cce62a6fd3e674fa41f0e8634a7f68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1884622234}
+  speed: 5
 --- !u!1 &1075856061
 GameObject:
   m_ObjectHideFlags: 0
@@ -1738,6 +1753,7 @@ GameObject:
   - component: {fileID: 1272926664}
   - component: {fileID: 1272926663}
   - component: {fileID: 1272926662}
+  - component: {fileID: 1272926665}
   m_Layer: 0
   m_Name: First Person Camera
   m_TagString: Untagged
@@ -1804,12 +1820,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272926661}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.8873403, y: -0.82804304, z: -0.10960127}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1272926665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272926661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2384c7da820a2144b83fcf3bbbbd8129, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1884622234}
 --- !u!1 &1341202586
 GameObject:
   m_ObjectHideFlags: 0
@@ -2632,6 +2661,7 @@ GameObject:
   - component: {fileID: 2022434253}
   - component: {fileID: 2022434252}
   - component: {fileID: 2022434251}
+  - component: {fileID: 2022434254}
   m_Layer: 0
   m_Name: Orbit Camera
   m_TagString: Untagged
@@ -2697,13 +2727,27 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2022434250}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.8873403, y: -0.82804304, z: -0.10960127}
+  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 0, y: 7, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 21
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+--- !u!114 &2022434254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022434250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4018d0fb0df34bc4585a2a6e59466cde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1884622234}
+  speed: 3
 --- !u!1 &2071780138
 GameObject:
   m_ObjectHideFlags: 0
