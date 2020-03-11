@@ -17,8 +17,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     - UnityEditor.Graphs.AnimatorControllerTool
-    UnityEditor.TestRunner.dll:
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -82,19 +80,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9778}
     - Class: 114
-      Script: {instanceID: 10058}
+      Script: {instanceID: 9932}
     - Class: 114
-      Script: {instanceID: 10142}
+      Script: {instanceID: 10060}
     - Class: 114
-      Script: {instanceID: 10218}
+      Script: {instanceID: 10144}
     - Class: 114
-      Script: {instanceID: 10334}
+      Script: {instanceID: 10220}
     - Class: 114
-      Script: {instanceID: 10436}
+      Script: {instanceID: 10336}
     - Class: 114
-      Script: {instanceID: 10546}
+      Script: {instanceID: 10438}
     - Class: 114
-      Script: {instanceID: 14350}
+      Script: {instanceID: 10548}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -149,7 +147,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9382}
     - Class: 114
-      Script: {instanceID: 10334}
+      Script: {instanceID: 10336}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -689,6 +687,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
+      Hash: 1152f0e27b83d3b9e32ee80bed4ff5a7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HoleController
+  - hash:
+      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -855,14 +859,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 1152f0e27b83d3b9e32ee80bed4ff5a7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HoleController
   platform: 19
   scenePathNames:
   - Assets/_Scenes/MainMenu.unity
   - Assets/_Scenes/Game.unity
-  playerPath: C:/Users/JMajcan/Documents/CS2053/CS2053Lab6/Builds/CS2053Lab6.exe
+  playerPath: C:/Users/JMajcan/Documents/CS2053/CS2053Lab6/Builds/ball-escape.exe
