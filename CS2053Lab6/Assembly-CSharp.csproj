@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\Camera Scripts\SpringCameraController.cs" />
     <Compile Include="Assets\Scripts\Game Scripts\BallController.cs" />
     <Compile Include="Assets\Scripts\Game Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\HoleController.cs" />
     <Compile Include="Assets\Scripts\Game Scripts\PlayerController.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/JMajcan/Documents/CS2053/CS2053Lab6/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
