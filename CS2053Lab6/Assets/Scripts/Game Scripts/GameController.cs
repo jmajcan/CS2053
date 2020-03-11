@@ -26,10 +26,22 @@ public class GameController : MonoBehaviour {
     public void LoadGame() {
         gameState = GameController.GameState.PLAYING;
         SceneManager.LoadScene("Game");
-        SceneManager.UnloadSceneAsync("GameController");
+        SceneManager.UnloadSceneAsync("MainMenu");
     }
 
     public void QuitGame() {
         Application.Quit();
+    }
+
+    public void LoadMenu(string str) {
+        SceneManager.LoadScene("MainMenu");
+        SceneManager.UnloadSceneAsync("Game");
+        if(str == "lose") {
+            gameState = GameController.GameState.LOSE;
+        }
+
+        if(str == "win") {
+            gameState = GameController.GameState.WIN;
+        }
     }
 }
